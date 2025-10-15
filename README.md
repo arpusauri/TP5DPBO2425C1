@@ -15,7 +15,7 @@ Tabel ini menyimpan data produk elektronik yang dijual di toko.
 | Field        | Tipe Data             | Constraint   | Keterangan                                                   |
 |-------       |-----------            |------------  |------------                                                  |
 | `id`         | VARCHAR(51)           | PRIMARY KEY  | ID unik produk dengan format KATEGORI-NNN (contoh: HP-001)   |
-| `nama`       | VARCHAR(51)          | NOT NULL     | Nama produk                                                  |
+| `nama`       | VARCHAR(51)           | NOT NULL     | Nama produk                                                  |
 | `harga`      | DOUBLE                | NOT NULL     | Harga produk                                                 |
 | `kategori`   | VARCHAR(51)           | NOT NULL     | Kategori produk (Laptop, HP, TV, Kulkas, AC)                 |
 | `kondisi`    | ENUM('Baru','Bekas')  | NOT NULL     | Kondisi barang (Baru/Bekas)                                  |
