@@ -1,4 +1,4 @@
-![delete1](https://github.com/user-attachments/assets/c1903e77-2ed9-490f-82a8-7b3c688f9621)![delete1](https://github.com/user-attachments/assets/85d34fd3-1fe8-46f5-8309-a27d04343fb2)![update1](https://github.com/user-attachments/assets/cd4c0ec0-68e6-4c16-8b75-68e266c50bbc)# TP5DPBO2425C1
+# TP5DPBO2425C1
 Saya Arya Purnama Sauri dengan NIM 2408521 mengerjakan Tugas Praktikum 5 dalam mata kuliah Desain Pemrograman Berbasis Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 # Desain Program
