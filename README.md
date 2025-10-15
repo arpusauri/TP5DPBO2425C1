@@ -1,4 +1,4 @@
-# TP5DPBO2425C1
+![delete1](https://github.com/user-attachments/assets/c1903e77-2ed9-490f-82a8-7b3c688f9621)![delete1](https://github.com/user-attachments/assets/85d34fd3-1fe8-46f5-8309-a27d04343fb2)![update1](https://github.com/user-attachments/assets/cd4c0ec0-68e6-4c16-8b75-68e266c50bbc)# TP5DPBO2425C1
 Saya Arya Purnama Sauri dengan NIM 2408521 mengerjakan Tugas Praktikum 5 dalam mata kuliah Desain Pemrograman Berbasis Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 # Desain Program
@@ -15,7 +15,7 @@ Tabel ini menyimpan data produk elektronik yang dijual di toko.
 | Field        | Tipe Data             | Constraint   | Keterangan                                                   |
 |-------       |-----------            |------------  |------------                                                  |
 | `id`         | VARCHAR(51)           | PRIMARY KEY  | ID unik produk dengan format KATEGORI-NNN (contoh: HP-001)   |
-| `nama`       | VARCHAR(51)          | NOT NULL     | Nama produk                                                  |
+| `nama`       | VARCHAR(51)           | NOT NULL     | Nama produk                                                  |
 | `harga`      | DOUBLE                | NOT NULL     | Harga produk                                                 |
 | `kategori`   | VARCHAR(51)           | NOT NULL     | Kategori produk (Laptop, HP, TV, Kulkas, AC)                 |
 | `kondisi`    | ENUM('Baru','Bekas')  | NOT NULL     | Kondisi barang (Baru/Bekas)                                  |
@@ -96,6 +96,21 @@ Class utama yang menampilkan GUI dan mengelola operasi CRUD produk.
 
 # Dokumentasi
 ## 1. CREATE
+![create1](https://github.com/user-attachments/assets/82d690ce-07c5-442d-a74b-bad746e66a7e)<br>
+![create2](https://github.com/user-attachments/assets/ee210af5-c018-486f-ba11-4f2cdc76ad7f)<br>
+![create3](https://github.com/user-attachments/assets/2fef93c1-20be-4892-b8a2-21affaf5e47d)<br>
+![create4](https://github.com/user-attachments/assets/21dfaf0b-880d-4dbe-af24-a9f5e1183a4d)<br>
+
 ## 2. READ
+<img width="686" height="593" alt="image" src="https://github.com/user-attachments/assets/4288e0d1-e5bd-464c-95ab-1f90842afbb6" /><br>
+
 ## 3. UPDATE
+![update1](https://github.com/user-attachments/assets/b71b05fc-1e87-4396-88c7-bc091c239fad)<br>
+![update2](https://github.com/user-attachments/assets/c0538ee7-eed2-4c87-8fba-dbf1a3fa6470)<br>
+![update3](https://github.com/user-attachments/assets/3a4afa33-d931-48ba-91e7-6ac88a901e1b)<br>
+
 ## 4. DELETE
+![delete1](https://github.com/user-attachments/assets/9cb2de49-fd60-473c-b762-a67e78b78c08)<br>
+![delete2](https://github.com/user-attachments/assets/a3f01851-edbe-48c5-b600-d85500cccb9a)<br>
+
+
