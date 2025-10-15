@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 15, 2025 at 09:36 AM
+-- Generation Time: Oct 15, 2025 at 11:10 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -32,7 +32,7 @@ CREATE TABLE `inventori` (
   `nama` varchar(51) NOT NULL,
   `harga` double NOT NULL,
   `kategori` varchar(51) NOT NULL,
-  `kondisi` varchar(51) NOT NULL
+  `kondisi` enum('Baru','Bekas') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
