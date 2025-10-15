@@ -27,8 +27,8 @@ Class model yang merepresentasikan entitas produk elektronik.
 
 #### Atribut:
 - `String id` - Identifier unik produk (Primary Key)
-- `String nama` - Nama produk elektronik
-- `double harga` - Harga produk dalam Rupiah
+- `String nama` - Nama produk
+- `double harga` - Harga produk
 - `String kategori` - Kategori produk (Laptop, HP, TV, Kulkas, AC)
 - `String kondisi` - Kondisi barang (Baru/Bekas)
 
@@ -52,12 +52,12 @@ Class utama yang menampilkan GUI dan mengelola operasi CRUD produk.
 - Komponen GUI: `JPanel`, `JTextField`, `JTable`, `JButton`, `JComboBox`, `JRadioButton`
 
 #### Method:
-- **`ProductMenu()`** - Constructor untuk inisialisasi database, setup komponen GUI, dan mengatur event listener
-- **`setTable()`** - Mengambil data dari database dan menampilkan ke JTable
-- **`insertData()`** - Menambah data produk baru ke database dengan validasi input
-- **`updateData()`** - Mengubah data produk yang sudah ada di database
-- **`deleteData()`** - Menghapus data produk dari database dengan konfirmasi
-- **`clearForm()`** - Mengosongkan semua input form dan reset ke mode "Add"
+- **`ProductMenu()`** - Inisialisasi database, setup komponen GUI, dan mengatur event listener
+- **`setTable()`** - Mengambil data dari database kemudian ditampilkan ke JTable
+- **`insertData()`** - Menambah data produk baru ke database
+- **`updateData()`** - Mengubah data produk pada database
+- **`deleteData()`** - Menghapus data produk dari database
+- **`clearForm()`** - Mengosongkan semua input form (untuk tombol cancel)
 
 # Penjelasan Alur Program
 ## 1. Jalankan Program
